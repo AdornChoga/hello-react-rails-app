@@ -16,8 +16,9 @@ This project is a practice on building rails app with a react front-end. The app
 1. Clone this repository
 2. Run `bundle install` in the terminal
 3. Run `npm install`
-4. Run `rails s` in the terminal
-5. Open the page using the URL http://127.0.0.1:3000
+4. Run `rails db:setup`
+5. Run `rails s` in the terminal
+6. Open the page using the URL http://127.0.0.1:3000
 
 ## Author
 
