@@ -9,7 +9,7 @@ const getGreeting = createAsyncThunk('randomGreeting', async () => {
 const greetingSlice = createSlice({
   name: 'random greeting',
   initialState: {
-    greeting: { text: 'Hello' },
+    greeting: {},
   },
   reducers: {},
   extraReducers: {
