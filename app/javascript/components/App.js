@@ -1,12 +1,16 @@
 import React from 'react';
-import Views from './Views';
 import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import Views from './Views';
+import store from '../store/store';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Views />
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <Views />
+      </BrowserRouter>
+    </Provider>
   )
 }
 
